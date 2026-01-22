@@ -1,23 +1,23 @@
-@prefix : <https://grupo5-vespoc.github.io/Board-Game-Interaction-Mechanics/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix bgim: <https://grupo5-vespoc.github.io/Board-Game-Interaction-Mechanics/bgim-skos#> .
 
-:BoardGameInteractionScheme
+bgim:BoardGameInteractionScheme
     a skos:ConceptScheme ;
     skos:prefLabel "Board Game Interaction Mechanics"@en ;
     skos:definition "Controlled vocabulary describing interaction mechanics in board games."@en ;
-    dct:creator "Grupo 5 VESPOC" ;
-    dct:language "en" .
+    dct:creator "Grupo 5 VESPOC" .
 
-:Cooperation
+bgim:Cooperation
     a skos:Concept ;
     skos:prefLabel "Cooperation"@en ;
     skos:definition "Interaction mechanic in which players collaborate to achieve a shared objective."@en ;
-    skos:inScheme :BoardGameInteractionScheme .
+    skos:inScheme bgim:BoardGameInteractionScheme .
 
-:Competition
+bgim:Competition
     a skos:Concept ;
     skos:prefLabel "Competition"@en ;
     skos:definition "Interaction mechanic in which players oppose each other to win the game."@en ;
-    skos:inScheme :BoardGameInteractionScheme .
+    skos:inScheme bgim:BoardGameInteractionScheme .
+
 
