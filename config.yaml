@@ -1,6 +1,8 @@
-title: Board Game Interaction Mechanics
-description: Vocabulary for describing interaction mechanics in board games
+site:
+  title: Board Game Interaction Mechanics
+  description: Vocabulary for describing interaction mechanics in board games
 
 languages:
-  - en
+  - id: en
+    label: English
 
